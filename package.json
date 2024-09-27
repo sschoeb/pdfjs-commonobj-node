@@ -1,0 +1,19 @@
+{
+  "name": "pdfjsissue",
+  "version": "1.0.0",
+  "description": "PdfJsIssue",
+  "author": "-",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "start": "tsc && node ParsePdf.js"
+  },
+  "dependencies": {
+    "pdfjs-dist": "4.6.82"
+  },
+  "devDependencies": {
+    "@types/node": "20.12.1",
+    "reflect-metadata": "0.2.2",
+    "typescript": "5.6.2"
+  }
+}
